@@ -1,0 +1,18 @@
+{
+    "mcpServers": {
+        "paper_search_server": {
+            "command": "docker",
+            "args": [
+                "run",
+                "-i",
+                "--rm",
+                "--init",
+                "-e",
+                "DOCKER_CONTAINER=true",
+                "-v",
+                "C:\\Users\\henry\\Desktop\\workdir\\GraphRag-MCP\\paper-search-mcp\\workdir:/root/paper-search-mcp/workspace",
+                "paper-search-mcp"
+            ]
+        }
+    }
+}
