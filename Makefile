@@ -15,3 +15,9 @@ test:
 	@echo "Running tests..."
 	cd client && python mcp_client.py && cd ..
 	@echo "Tests completed."
+
+.PHONY: app
+app:
+	@echo "Starting the application..."
+	streamlit run streamlit_app.py
+	@echo "Application started."

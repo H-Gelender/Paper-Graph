@@ -11,4 +11,4 @@ Ta mission :
 - N'hésite pas à itérer sur plusieurs outils et à enrichir ta mémoire au fil de l'analyse.
 """
 
-MODEL = "gemini-2.5-flash-lite"  # Specify the Google Gemini model variant to use
+MODEL = "gemini-2.5-flash"  # Specify the Google Gemini model variant to use
